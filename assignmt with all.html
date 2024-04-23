@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <font color = "red" size = "6px">STUDENTS REGISTRATION FORM:</font> 
+
+</head><br>
+ 
+  <body>
+  Male:<input type="radio" :value="Male">
+  Female:<input type="radio": value="female">
+
+<fieldset>
+  <legend>
+         STUDENT'S INFORMATION
+  </legend>
+<form action>
+ Height: <input type="text" size="1.5"> 
+ Weight: <input type="text" size="1.5">
+ Color of eyes: <input type="text" size="1.5"> 
+ Blood Group : <input type="text" size="1.5">
+ Shoe size: <input type="text" size="1.5"> 
+ Others if any: <input type="text" size="1.5"> 
+ 
+</form>
+</fieldset>
+
+<form>
+   
+    First Name : <input type="text" required /><br>
+    Last  Name : <input type="text" required/><br>
+     
+    Email Address 1:<input  type="text" /><br>
+    Email Address 2:<input  type="text" /><br>
+    Country:<input type="text" /><br>
+    ZIp:<input  type="number" /><br>
+    Course:<br>
+    <select >
+      <option>BIT</option>
+      <option>BIS</option>
+      <option>BCS</option>
+      <option>DIT</option>
+
+    </select><br>
+  
+
+    <div>
+    Email:<input  type="text" />
+    </div>
+    <div>
+    Mobile:<input  type="number"/>
+    </div>
+    Languages known:<br>
+   <ul>
+      <li>
+    <input type="checkbox" checked/> English
+      </li>
+      <li>
+    <input type="checkbox" checked/>Swahil
+      </li>
+      <li>
+    <input type="checkbox" cheched/>Germany
+      </li>
+      <li>
+    <input type="checkbox"/>French<br>
+      </li>
+     </ul>
+    Additional information:<br><textarea rows="10" cols="30">optional</textarea/> <br>
+    <input type="button" value="submit"/>
+    <input type="button" value="reset"/>
+      </form>
+  
+     <form name="input" action="html_form_submit.php">
+<font color = "red" size = "4px">Subscribe here:</font> 
+
+<input type="text" name="user" />
+<input type="submit" value="Register" />
+</form>
+
+
+ </body>
+
+</html>
